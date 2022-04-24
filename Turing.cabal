@@ -32,7 +32,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , bytestring
     , containers
+    , yaml
   default-language: Haskell2010
 
 executable Turing-exe
@@ -45,7 +47,9 @@ executable Turing-exe
   build-depends:
       Turing
     , base >=4.7 && <5
+    , bytestring
     , containers
+    , yaml
   default-language: Haskell2010
 
 test-suite Turing-test
@@ -59,5 +63,7 @@ test-suite Turing-test
   build-depends:
       Turing
     , base >=4.7 && <5
+    , bytestring
     , containers
+    , yaml
   default-language: Haskell2010
