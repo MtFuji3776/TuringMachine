@@ -34,6 +34,7 @@ library
       base >=4.7 && <5
     , bytestring
     , containers
+    , text
     , yaml
   default-language: Haskell2010
 
@@ -49,6 +50,7 @@ executable Turing-exe
     , base >=4.7 && <5
     , bytestring
     , containers
+    , text
     , yaml
   default-language: Haskell2010
 
@@ -65,5 +67,6 @@ test-suite Turing-test
     , base >=4.7 && <5
     , bytestring
     , containers
+    , text
     , yaml
   default-language: Haskell2010

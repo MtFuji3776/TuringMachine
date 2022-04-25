@@ -24,6 +24,7 @@ dependencies:
 - containers
 - bytestring
 - yaml
+- text
 
 library:
   source-dirs: src
